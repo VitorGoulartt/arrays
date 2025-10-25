@@ -1,14 +1,20 @@
 package atividade1;
-import java.utill.Arrays;
+
 
 public class Um {
 
     
 
-    public voi arrays(){
-        int[] acesso = {1, 2, 3, 4, 5};
-        System.out.println(acesso[1]);
-
+    public void arrays(){
+        int[] acesso = {4, 3, 2, 1, 5};
+        System.out.println( "1 " + acesso[0]);
+        System.out.println("2 " + acesso[1]);
+        System.out.println("3 " + acesso[2]);
+        System.out.println("4 " + acesso[3]);
+        System.out.println("5 " + acesso[4]);
+         System.out.println("tamanho " + acesso.length);
+         
+        
     }
 
 
